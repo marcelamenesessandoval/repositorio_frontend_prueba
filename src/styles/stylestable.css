@@ -1,0 +1,363 @@
+
+  /* .backgroundTables{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(./fondosoft.jpeg);
+    width: inherit;
+    background-size: cover;
+    background-position-x: center;
+  } */
+
+
+  .styleContentSection{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+    justify-items: center;
+    margin: 3%;
+    margin-top: 1%;
+    width:inherit;
+    /*box-shadow: 7px 13px 37px #000;
+    opacity: 90%;
+    border-radius: 4px;
+    background: #24303c;*/
+  }
+  
+  
+  .tableTitle{
+    text-align: center;
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  .textTable{
+    font-family: sans-serif;
+    color: whitesmoke;
+  }
+  
+  .styleOptionsTable{
+      display:block;
+      width: 97%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2%;
+  }
+
+  .searchInTable{
+    justify-self: center; 
+    align-items:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+  }
+
+
+  .buttonCreate{
+    height: 40px;
+    width: 16%;
+    align-self: center;
+    color: white;
+    background-color: rgb(70, 165, 186);
+    text-align: center;
+    padding: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .buttonCreate:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+ 
+
+  .labelSearch{
+    margin: 10px;
+    font-family:sans-serif;
+    font-size: medium;
+    color: white;
+    font-weight: bold;
+    
+  }
+  
+  .inputSearch{
+    margin: 5px;
+    padding: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 150px;
+    height: 23px;
+    border-radius: 15px;
+    border: 2px solid #009688;
+  }
+
+  .inputSearch:focus{
+    border:3px solid rgb(150, 150, 150);
+    outline: none;
+  }
+  
+  
+  .table{
+    justify-self: center;
+    border-collapse: collapse;
+    margin: 2%;
+    padding: 2%;
+    border: white 2px solid;
+    font-family: sans-serif;
+    width:90%;
+  }
+
+    /*NUEVO*/ 
+    .table tr:nth-child(odd){
+      background-color: white;
+    } 
+  
+    /*NUEVO*/
+    .table tr:hover{
+      background-color: rgb(201, 204, 204);
+      cursor: pointer;
+    }
+
+
+  .column{
+    text-align: center;
+    border-collapse: collapse;
+    border: white 2px solid;
+    font-size: 90%;
+    padding: 1%;
+    width: 10%;
+    white-space: pre-wrap;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color:#009688;
+    color: white;
+  }
+  .narrowColumn{
+    width: 7%;
+    font-family: sans-serif;
+    border: white 2px solid;
+  }
+
+  .widthColumn{
+    width: 20%;
+    font-family: sans-serif;
+    border: white 2px solid;
+  }
+
+  .iconColumn{
+    width: 12%;
+  }
+
+  .row{
+    text-align: center;
+    border-collapse: collapse;
+    border: white 2px solid;
+    white-space: pre-wrap;
+    background-color:#dbebe8;
+    color: rgb(87, 86, 86);
+  }
+  
+  
+  
+  .cell{
+    text-align: center;
+    border-collapse: collapse;
+    border: white 2px solid;
+    padding: 1%;
+    height: 2%;
+    font-size:95%;
+    white-space: pre-wrap
+  }
+  
+
+  .detailIcon{
+      font-size: 130%;
+      margin-left: 8%;
+      margin-right: 8%;
+      cursor: pointer;
+      color: rgb(57, 87, 94);
+
+  }
+
+  .editIcon{
+    font-size: 130%;
+    margin-left: 8%;
+    margin-right: 8%;
+    cursor: pointer;
+    color: rgb(57, 87, 94);
+  }
+  
+    /*NUEVO*/
+    .deleteIcon{
+      font-size: 130%;
+      margin-left: 8%;
+      margin-right: 8%;
+      cursor: pointer;
+      color: rgb(57, 87, 94);
+    }
+  
+  
+
+  .tooltip{
+    position: relative;
+  }
+
+  .detailIcon:hover .tooltipText{
+    display:block;
+  }
+  .editIcon:hover .tooltipText{
+    display: block;
+  }
+
+    /*NUEVO*/
+    .deleteIcon:hover .tooltipText{
+      display: block;
+    }
+  
+
+  .tooltipText{
+    text-align: center;
+    display: none;
+    position: absolute;
+    background-color: grey;
+    line-height: 20px;
+    z-index: 500;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    margin: 8px;
+    border-radius: 5px;
+    bottom: 10px;
+    left: 20px;
+    width: 60px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+  }
+
+
+
+ .pager{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    max-width: 750px;
+    justify-content: center;
+    align-items: center;
+ }
+
+  .numPag{
+    flex-grow: 0.08;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    transition: all 0.5s;
+    cursor:pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    font-weight: bold;
+  }
+
+  .numPag::before{
+    content:"";
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    width: 0px;
+    height: 0px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(70, 165, 187);
+    border-radius: 50%;
+    transition: all 0.5s;
+    z-index: -1;
+  }
+
+  .numPag:hover{
+    color: white;
+  }
+
+
+  .numPag:hover::before{
+    width: 40px;
+    height: 40px;
+  }
+
+
+  /*NUEVO*/
+  .buttonDialogDelete{
+    width: 130px;
+    height: 40px;
+    color: white;
+    background-color: rgb(70, 165, 186);
+    margin: 10px;
+    padding: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+
+
+  .buttonDialogDelete:hover{
+    color: white;
+    background-color: rgb(59, 140, 158);
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+
+
+
+
+.titleDialog{
+  background-color: #009688;
+  color: white;
+  text-align: center;
+  padding: 3px;
+  justify-content: center;
+}
+
+
+.textDelete{
+  font-family: sans-serif;
+  margin: 10px;
+  text-align: center;
+  color: rgb(57, 87, 94);
+}
+
+.dialog{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10%;
+}
+
+.dialogEdit{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 7px;
+  padding: 0;
+  height: 110%;
+  overflow-x:none;
+  overflow-y: scroll;
+  /* scrollbar-color:#009688; */
+}
+
+
+
+
+.divButtonDialog{
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  display: flex;
+  margin: 10px;
+  margin-top: 0%;
+  padding: 5px
+}

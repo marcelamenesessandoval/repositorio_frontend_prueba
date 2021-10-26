@@ -1,0 +1,119 @@
+ /* .fondo{
+  width: inherit; 
+  background-image: url(./fondoSoft2.jpeg);
+  background-size: cover
+} */
+
+.form-edit{
+  width: 540px ;
+  background: #24303c;
+  padding: 30px;
+  margin: 0;
+  margin-top: 0px;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+  opacity: 90%;
+
+}
+
+  
+  .form-registro{
+    width: 400px ;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 45px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    opacity: 90%;
+  }
+  
+  .form-registro h4{
+    font-size:  22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls{
+    width: 100%;
+    background: #24303c;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    border: 1px solid #009688;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    
+  }
+
+
+  .labelForm{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    padding: 4px;
+  }
+  
+  .descripcion{
+    padding-bottom: 40px;
+  
+  }
+  
+  .mouse{
+    cursor: pointer;
+  }
+  
+  
+  .form-registro .botonRegistro{
+    width: 100%;
+    background: #009688;
+    border: none;
+    padding:  10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+
+  .buttonAdd{
+    margin: 3px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 0;
+    background-color: rgba(211, 30, 54, 0.781);
+    border-radius: 10px;
+    width: 40%;
+  }
+  
+  .buttonAdd:hover{
+    cursor: pointer;
+    transform: scale(1.07);
+}
+
+
+.divAgregarProducto{
+  border: 2px solid rgba(255, 255, 255, 0.61);
+  padding: 15px;
+  padding-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #24303ca6;
+  border-radius: 25px;
+}
+  
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+  }
+  
+
+
+
+  

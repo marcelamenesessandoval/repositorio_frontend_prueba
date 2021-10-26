@@ -1,0 +1,82 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(media/imagen_registro.jpg) no-repeat center top;
+    background-size: cover;
+    background-position-x: center;
+  }
+
+  .registro{
+    width: 300px;
+      height: 400;
+      background:rgb(33, 56, 63);
+      color: #fff;
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      box-sizing: border-box;
+      padding: 45px 30px; 
+      
+  }
+  
+  .registro h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .registro label{
+    margin: 0%;
+    padding: 0%;
+    font-weight: bolder;
+    display: block;
+  }
+  
+  .registro input{
+    width: fit-content;
+    margin-bottom: 10px;
+  }
+  
+  .registro input[type="email"],
+  .registro input[type="text"],
+  .registro input[type="password"]{
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid #0f0404;
+      background:transparent;
+      outline: none;
+      height: 30px;
+      color: black;
+      font-size: 16px;
+  }
+  
+  .registro input[type="submit"]{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #009688;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer; 
+    margin-top: 5px;
+    
+    
+  }
+  
+  .registro p{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 0px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  
+  .registro p:hover{
+    color: rgb(114, 112, 112);
+    
+  }
