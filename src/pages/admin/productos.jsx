@@ -97,7 +97,7 @@ const TablaProductos = ({ listaProductos, setEjecutarConsulta }) => {
 
   return (
     <>
-      <h2 className='tableTitle'>Gestión de productos</h2>
+      <h2 className='tableTitle'>Gestión de productos_prueba</h2>
       <p className='textTable'>
         A continuación, se enseña el listado de productos registrados. Para
         registrar un nuevo producto, pulse el botón <b>Registrar producto.</b>
