@@ -441,13 +441,11 @@ const IngresarPage = ({
   };
 
   return (
-    <div 
-    // className='fondo'
-    >
-      <section 
-      // className='form-registro'
-      >
-        <form ref={form} onSubmit={submitForm}>
+    <div className='fondo'>
+      <section className='form-registro'>
+        <form 
+        // ref={form} onSubmit={submitForm}
+        >
           <h4>Registro de Producto</h4>
           <label htmlFor='idProduct' className='labelForm'>
             Identificador único de producto
