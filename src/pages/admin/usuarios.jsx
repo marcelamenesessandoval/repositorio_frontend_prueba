@@ -14,7 +14,7 @@ const UsuariosPage = () => {
   const [ejecutarConsulta, setEjecutarConsulta] = useState(true);
 
   const obtenerUsuarios = async () => {
-    const options = { method: "GET", url: "https://afternoon-chamber-83835.herokuapp.com/usuarios/" };
+    const options = { method: "GET", url: "https://evening-wildwood-64160.herokuapp.com/usuarios/" };
     await axios
       .request(options)
       .then(function (response) {
@@ -144,7 +144,7 @@ const FilaUsuario = ({ setMostrarTabla, usuario, setEjecutarConsulta }) => {
   const eliminarUsuario = async () => {
     const options = {
       method: "DELETE",
-      url: "https://afternoon-chamber-83835.herokuapp.com/usuarios/" + usuario._id + "/",
+      url: "https://evening-wildwood-64160.herokuapp.com/usuarios/" + usuario._id + "/",
       headers: { "Content-Type": "application/json" },
       data: { id: usuario._id },
     };
@@ -184,7 +184,7 @@ const FilaUsuario = ({ setMostrarTabla, usuario, setEjecutarConsulta }) => {
 
     const options = {
       method: "PATCH",
-      url: "https://afternoon-chamber-83835.herokuapp.com/usuarios/" + usuario._id + "/",
+      url: "https://evening-wildwood-64160.herokuapp.com/usuarios/" + usuario._id + "/",
       headers: { "Content-Type": "application/json" },
       data: { ...infoEditada },
     };
@@ -378,7 +378,7 @@ const FilaUsuario = ({ setMostrarTabla, usuario, setEjecutarConsulta }) => {
 
 //     const options = {
 //       method: "PATCH",
-//       url: "http://localhost:5000/usuarios/" + usuario._id + "/",
+//       url: "https://evening-wildwood-64160.herokuapp.com/usuarios/" + usuario._id + "/",
 //       headers: { "Content-Type": "application/json" },
 //       data: { ...infoEditada },
 //     };

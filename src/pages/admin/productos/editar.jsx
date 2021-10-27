@@ -24,7 +24,7 @@ const EditarProducto = ({ producto, setMostrarTabla, setEjecutarConsulta }) => {
 
         const options = {
             method: 'PATCH',
-            url: 'https://afternoon-chamber-83835.herokuapp.com/productos/' + producto._id + '/',
+            url: 'https://evening-wildwood-64160.herokuapp.com/productos/' + producto._id + '/',
             headers: { 'Content-Type': 'application/json' },
             data: { ...infoEditada },
         };

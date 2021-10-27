@@ -12,7 +12,7 @@ const ProductosPage = () => {
   const [ejecutarConsulta, setEjecutarConsulta] = useState(true);
 
   const obtenerProductos = async () => {
-    const options = { method: "GET", url: "https://afternoon-chamber-83835.herokuapp.com/productos/" };
+    const options = { method: "GET", url: "https://evening-wildwood-64160.herokuapp.com/productos/" };
     await axios
       .request(options)
       .then(function (response) {
@@ -167,7 +167,7 @@ const FilaProducto = ({ setMostrarTabla, producto, setEjecutarConsulta }) => {
   const eliminarProducto = async () => {
     const options = {
       method: "DELETE",
-      url: "https://afternoon-chamber-83835.herokuapp.com/productos/" + producto._id + "/",
+      url: "https://evening-wildwood-64160.herokuapp.com/productos/" + producto._id + "/",
       headers: { "Content-Type": "application/json" },
       data: { id: producto._id },
     };
@@ -209,7 +209,7 @@ const FilaProducto = ({ setMostrarTabla, producto, setEjecutarConsulta }) => {
 
     const options = {
       method: "PATCH",
-      url: "https://afternoon-chamber-83835.herokuapp.com/productos/" + producto._id + "/",
+      url: "https://evening-wildwood-64160.herokuapp.com/productos/" + producto._id + "/",
       headers: { "Content-Type": "application/json" },
       data: { ...infoEditada },
     };
@@ -415,7 +415,7 @@ const IngresarPage = ({
 
     const options = {
       method: "POST",
-      url: "https://afternoon-chamber-83835.herokuapp.com/productos/",
+      url: "https://evening-wildwood-64160.herokuapp.com/productos/",
       headers: { "Content-Type": "application/json" },
       data: {
         idProduct: nuevoProducto.idProduct,
@@ -530,7 +530,7 @@ const IngresarPage = ({
 
 //         const options = {
 //             method: 'PATCH',
-//             url: 'http://localhost:5000/productos/' + producto._id + '/',
+//             url: 'https://evening-wildwood-64160.herokuapp.com/productos/' + producto._id + '/',
 //             headers: { 'Content-Type': 'application/json' },
 //             data: { ...infoEditada },
 //         };
