@@ -286,17 +286,7 @@ const FilaProducto = ({ setMostrarTabla, producto, setEjecutarConsulta }) => {
           className='dialogEdit'
           open={openDialogEdit}
         >
-          <section>
-          <form action="">
-            <h3>FORMULARIO DE PRUEBA</h3>
-            <label htmlFor="prueba">
-              CAMPO DE PRUEBA
-                <input name="prueba" type="text" />
-            </label>
-            
-          </form>
-          </section>
-{/* 
+
           <section className='form-edit'>
             <form ref={form} onSubmit={submitForm}>
               <h4>Editar de Producto</h4>
@@ -402,7 +392,7 @@ const FilaProducto = ({ setMostrarTabla, producto, setEjecutarConsulta }) => {
             
             
             </form>
-          </section> */}
+          </section>
         </Dialog>
       </td>
     </tr>
